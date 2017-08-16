@@ -1,0 +1,27 @@
+{
+  "name": "Question",
+  "plural": "Questions",
+  "base": "PersistedModel",
+  "idInjection": true,
+  "options": {
+    "validateUpsert": true
+  },
+  "properties": {
+    "content": {
+      "type": "string",
+      "required": true
+    },
+    "answers": {
+      "type": "array",
+      "required": true
+    },
+    "rightAnswer": {
+      "type": "number",
+      "required": true
+    }
+  },
+  "validations": [],
+  "relations": {},
+  "acls": [],
+  "methods": {}
+}

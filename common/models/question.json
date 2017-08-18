@@ -11,6 +11,10 @@
       "type": "string",
       "required": true
     },
+    "questionId": {
+       "type": "number",
+       "required": true    
+    },
     "image": {
       "type": "string",
       "required": true
